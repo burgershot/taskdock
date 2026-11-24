@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — TaskDock</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <p><a href="index.html">← TaskDock</a></p>
+  <h1>Privacy Policy</h1>
+  <p class="muted">Last updated: 24 November 2026</p>
+
+  <p>TaskDock is a macOS app that lets you view and manage your Google Tasks. This policy explains
+     what data the app accesses and how it is handled.</p>
+
+  <h2>Data the app accesses</h2>
+  <ul>
+    <li><strong>Google Tasks</strong> (scope <code>https://www.googleapis.com/auth/tasks</code>):
+        your task lists and tasks, so they can be displayed, created, edited, completed, moved, and deleted at your request.</li>
+    <li><strong>Basic account info</strong> (scopes <code>openid</code> and <code>email</code>):
+        your email address, shown in the app's settings so you can see which account is signed in.</li>
+  </ul>
+
+  <h2>How data is used and stored</h2>
+  <ul>
+    <li>TaskDock runs only on your Mac. It communicates directly with Google's APIs over HTTPS.
+        There is no TaskDock server, and no data is sent to the developer or any third party.</li>
+    <li>Your tasks are kept in memory while the app is running and are fetched from Google again when needed.
+        They are not stored on disk by TaskDock.</li>
+    <li>The sign-in tokens Google issues are stored locally on your Mac in a file only your user account can read.
+        App preferences (such as accent color) are stored in standard macOS preferences.</li>
+    <li>TaskDock contains no analytics, advertising, or tracking of any kind.</li>
+    <li>Data is never sold, shared, or used for advertising, and is never used to train AI or machine-learning models.</li>
+  </ul>
+
+  <h2>Google API Services User Data Policy</h2>
+  <p>TaskDock's use and transfer of information received from Google APIs adheres to the
+     <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+     including the Limited Use requirements.</p>
+
+  <h2>Removing access and data</h2>
+  <ul>
+    <li>Sign out in TaskDock (Settings → Account) to delete the stored tokens and revoke the app's access.</li>
+    <li>You can also revoke access at any time from your Google Account at
+        <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+    <li>Deleting the app and the folder <code>~/Library/Application Support/TaskDock</code> removes everything it stored locally.</li>
+  </ul>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the updated version will be posted on this page with a new date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy can be raised through this site's
+     <a href="https://github.com/burgershot/taskdock/issues">GitHub issues page</a>.</p>
+
+  <footer>TaskDock is an independent app and is not affiliated with or endorsed by Google.</footer>
+</main>
+</body>
+</html>
